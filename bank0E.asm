@@ -90,85 +90,78 @@ code_0EA083:
   db $C1, $EC, $11, $3C, $62, $88, $B1, $D9 ; $0EA0A5 |
   db $03, $3C, $5A, $85, $DC, $01, $A0, $A0 ; $0EA0AD |
   db $A1, $A1, $A1, $A1, $A1, $A1, $A2, $A2 ; $0EA0B5 |
-  db $A2, $A2, $A2, $A3, $21, $8F, $17, $18 ; $0EA0BD |
-  db $26, $01, $07, $FE, $21, $AF, $17, $0E ; $0EA0C5 |
-  db $0E, $0D, $15, $0E, $25, $16, $0A, $17 ; $0EA0CD |
-  db $FE, $21, $EF, $17, $18, $0B, $1E, $11 ; $0EA0D5 |
-  db $12, $14, $18, $FE, $22, $0F, $0A, $14 ; $0EA0DD |
-  db $0A, $1D, $1C, $1E, $14, $0A, $FF, $21 ; $0EA0E5 |
-  db $8F, $17, $18, $26, $01, $08, $FE, $21 ; $0EA0ED |
-  db $AF, $16, $0A, $10, $17, $0E, $1D, $25 ; $0EA0F5 |
-  db $16, $0A, $17, $FE, $21, $EF, $17, $0A ; $0EA0FD |
-  db $10, $0A, $1C, $11, $12, $FE, $22, $0F ; $0EA105 |
-  db $14, $12, $12, $FF, $21, $8F, $17, $18 ; $0EA10D |
-  db $26, $01, $09, $FE, $21, $AF, $10, $0E ; $0EA115 |
-  db $16, $12, $17, $12, $25, $16, $0A, $17 ; $0EA11D |
-  db $FE, $21, $EF, $22, $18, $1C, $11, $12 ; $0EA125 |
-  db $11, $12, $1D, $18, $FE, $22, $0F, $11 ; $0EA12D |
-  db $0A, $1D, $1D, $18, $1B, $12, $FF, $21 ; $0EA135 |
-  db $8F, $17, $18, $26, $02, $00, $FE, $21 ; $0EA13D |
-  db $AF, $11, $0A, $1B, $0D, $25, $16, $0A ; $0EA145 |
-  db $17, $FE, $21, $EF, $14, $0A, $23, $1E ; $0EA14D |
-  db $11, $12, $14, $18, $FE, $22, $0F, $18 ; $0EA155 |
-  db $10, $1E, $1B, $18, $FF, $21, $8F, $17 ; $0EA15D |
-  db $18, $26, $02, $01, $FE, $21, $AF, $1D ; $0EA165 |
-  db $18, $19, $25, $16, $0A, $17, $FE, $21 ; $0EA16D |
-  db $EF, $22, $0A, $1C, $1E, $1C, $11, $12 ; $0EA175 |
-  db $FE, $22, $0F, $14, $18, $17, $13, $12 ; $0EA17D |
-  db $14, $12, $FF, $21, $8F, $17, $18, $26 ; $0EA185 |
-  db $02, $02, $FE, $21, $AF, $1C, $17, $0A ; $0EA18D |
-  db $14, $0E, $25, $16, $0A, $17, $FE, $21 ; $0EA195 |
-  db $EF, $22, $1E, $11, $13, $12, $1B, $18 ; $0EA19D |
-  db $FE, $22, $0F, $12, $1C, $11, $12, $1D ; $0EA1A5 |
-  db $0A, $17, $12, $FF, $21, $8F, $17, $18 ; $0EA1AD |
-  db $26, $02, $03, $FE, $21, $AF, $1C, $19 ; $0EA1B5 |
-  db $0A, $1B, $14, $25, $16, $0A, $17, $FE ; $0EA1BD |
-  db $21, $EF, $16, $12, $14, $12, $11, $12 ; $0EA1C5 |
-  db $1B, $18, $FE, $22, $0F, $1C, $1E, $23 ; $0EA1CD |
-  db $1E, $14, $12, $FF, $21, $8F, $17, $18 ; $0EA1D5 |
-  db $26, $02, $04, $FE, $21, $AF, $1C, $11 ; $0EA1DD |
-  db $0A, $0D, $18, $20, $25, $16, $0A, $17 ; $0EA1E5 |
-  db $FE, $21, $EF, $1D, $0A, $14, $1E, $16 ; $0EA1ED |
-  db $12, $17, $0E, $FE, $22, $0F, $22, $18 ; $0EA1F5 |
-  db $1C, $11, $12, $0D, $0A, $FF, $23, $26 ; $0EA1FD |
-  db $19, $12, $00, $18, $19, $28, $00, $1C ; $0EA205 |
-  db $13, $11, $12, $1E, $00, $0B, $10, $1E ; $0EA20D |
-  db $0F, $1C, $00, $21, $0F, $FE, $23, $46 ; $0EA215 |
-  db $1C, $0F, $0D, $0F, $13, $20, $0F, $0E ; $0EA21D |
-  db $00, $1E, $12, $0F, $00, $16, $0B, $1D ; $0EA225 |
-  db $1E, $FE, $23, $66, $0F, $16, $0F, $17 ; $0EA22D |
-  db $0F, $18, $1E, $26, $26, $26, $FF, $23 ; $0EA235 |
-  db $26, $21, $13, $16, $0F, $23, $00, $1C ; $0EA23D |
-  db $0B, $18, $00, $19, $10, $10, $00, $21 ; $0EA245 |
-  db $13, $1E, $12, $FE, $23, $46, $11, $0B ; $0EA24D |
-  db $17, $17, $0B, $28, $FF, $23, $66, $21 ; $0EA255 |
-  db $12, $0F, $1C, $0F, $27, $1D, $00, $0E ; $0EA25D |
-  db $25, $26, $00, $21, $13, $16, $0F, $23 ; $0EA265 |
-  db $29, $26, $26, $26, $FE, $23, $86, $19 ; $0EA26D |
-  db $12, $00, $18, $19, $2B, $00, $1E, $19 ; $0EA275 |
-  db $19, $00, $16, $0B, $1E, $0F, $26, $FF ; $0EA27D |
-  db $23, $26, $17, $0F, $11, $0B, $17, $0B ; $0EA285 |
-  db $18, $2B, $00, $23, $19, $1F, $27, $20 ; $0EA28D |
-  db $0F, $00, $1C, $0F, $11, $0B, $13, $18 ; $0EA295 |
-  db $0F, $0E, $FE, $23, $46, $0D, $19, $18 ; $0EA29D |
-  db $1D, $0D, $13, $19, $1F, $1D, $18, $0F ; $0EA2A5 |
-  db $1D, $1D, $26, $00, $13, $00, $10, $19 ; $0EA2AD |
-  db $1F, $18, $0E, $FE, $23, $66, $23, $19 ; $0EA2B5 |
-  db $1F, $00, $16, $23, $13, $18, $11, $00 ; $0EA2BD |
-  db $12, $0F, $1C, $0F, $00, $21, $12, $0F ; $0EA2C5 |
-  db $18, $00, $13, $FE, $23, $86, $0B, $1C ; $0EA2CD |
-  db $1C, $13, $20, $0F, $0E, $26, $FF, $23 ; $0EA2D5 |
-  db $26, $13, $00, $21, $19, $18, $0E, $0F ; $0EA2DD |
-  db $1C, $00, $21, $12, $19, $00, $0C, $1C ; $0EA2E5 |
-  db $19, $1F, $11, $12, $1E, $00, $23, $19 ; $0EA2ED |
-  db $1F, $FE, $23, $46, $12, $0F, $1C, $0F ; $0EA2F5 |
-  db $26, $26, $26, $FF, $23, $26, $1E, $12 ; $0EA2FD |
-  db $13, $1D, $00, $21, $12, $13, $1D, $1E ; $0EA305 |
-  db $16, $0F, $26, $26, $26, $00, $13, $1E ; $0EA30D |
-  db $00, $17, $1F, $1D, $1E, $FE, $23, $46 ; $0EA315 |
-  db $12, $0B, $20, $0F, $00, $0C, $0F, $0F ; $0EA31D |
-  db $18, $00, $1A, $1C, $19, $1E, $19, $00 ; $0EA325 |
-  db $17, $0B, $18, $28, $FF, $B2, $FF, $AA ; $0EA32D |
+  db $A2, $A2, $A2, $A3                     ; $0EA0BD |
+
+table tbl/MM3_Text_A.tbl,ltr
+
+  db $21, $8F, "NO.17", $FE
+  db $21, $AF, "NEEDLE MAN", $FE
+  db $21, $EF, "NOBUHIKO", $FE
+  db $22, $0F, "AKATSUKA", $FF
+
+  db $21, $8F, "NO.18", $FE
+  db $21, $AF, "MAGNET MAN", $FE
+  db $21, $EF, "NAGASHI", $FE
+  db $22, $0F, "KII", $FF
+
+  db $21, $8F, "NO.19", $FE
+  db $21, $AF, "GEMINI MAN", $FE
+  db $21, $EF, "YOSHIHITO", $FE
+  db $22, $0F, "HATTORI", $FF
+
+  db $21, $8F, "NO.20", $FE
+  db $21, $AF, "HARD MAN", $FE
+  db $21, $EF, "KAZUHIKO", $FE
+  db $22, $0F, "OGURO", $FF
+
+  db $21, $8F, "NO.21", $FE
+  db $21, $AF, "TOP MAN", $FE
+  db $21, $EF, "YASUSHI", $FE
+  db $22, $0F, "KONJIKI", $FF
+
+  db $21, $8F, "NO.22", $FE
+  db $21, $AF, "SNAKE MAN", $FE
+  db $21, $EF, "YUHJIRO", $FE
+  db $22, $0F, "ISHITANI", $FF
+
+  db $21, $8F, "NO.23", $FE
+  db $21, $AF, "SPARK MAN", $FE
+  db $21, $EF, "MIKIHIRO", $FE
+  db $22, $0F, "SUZUKI", $FF
+
+  db $21, $8F, "NO.24", $FE
+  db $21, $AF, "SHADOW MAN", $FE
+  db $21, $EF, "TAKUMINE", $FE
+  db $22, $0F, "YOSHIDA", $FF
+
+cleartable
+
+table tbl/MM3_Text_B.tbl,ltr
+
+  db $23, $26, "OH NO! RIGHT AFTER WE", $FE
+  db $23, $46, "RECEIVED THE LAST", $FE
+  db $23, $66, "ELEMENT...", $FF
+
+  db $23, $26, "WILEY RAN OFF WITH", $FE
+  db $23, $46, "GAMMA!", $FF
+
+  db $23, $66, "WHERE'S Dr. WILEY?...", $FE
+  db $23, $86, "OH NO, TOO LATE.", $FF
+
+  db $23, $26, "MEGAMAN, YOU'VE REGAINED", $FE
+  db $23, $46, "CONSCIOUSNESS. I FOUND", $FE
+  db $23, $66, "YOU LYING HERE WHEN I", $FE
+  db $23, $86, "ARRIVED.", $FF
+
+  db $23, $26, "I WONDER WHO BROUGHT YOU", $FE
+  db $23, $46, "HERE...", $FF
+
+  db $23, $26, "THIS WHISTLE... IT MUST", $FE
+  db $23, $46, "HAVE BEEN PROTO MAN!", $FF
+
+cleartable
+
+  db $B2, $FF, $AA ; $0EA332 |
   db $FF, $AF, $FF, $AB, $FF, $EF, $BF, $EF ; $0EA335 |
   db $FF, $FE, $FF, $AA, $DE, $A2, $FB, $AE ; $0EA33D |
   db $7E, $8A, $FF, $AB, $FE, $AB, $FF, $EE ; $0EA345 |
